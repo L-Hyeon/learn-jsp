@@ -10,13 +10,13 @@
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
   
-  <servlet>
+<!--<servlet>
   	<servlet-name>testMapping</servlet-name>
   	<servlet-class>com.test.TestServletMapping</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>testMapping</servlet-name>
   	<url-pattern>/SE</url-pattern>
-  </servlet-mapping>
+  </servlet-mapping> -->
   
 </web-app>
