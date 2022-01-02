@@ -36,5 +36,25 @@ pageEncoding="EUC-KR"%>
 		</div>
 		
 		<%@ include file="footer.jsp" %>
+		
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<%!
+		String adminID;	
+		String testIP;
+		%>
+		
+		<%
+		adminID = config.getInitParameter("adminID");
+		testIP = application.getInitParameter("testIP");
+		%>
+		
+		<p>ID = <%= adminID %></p>
+		<p>IP = <%= testIP %></p>
 	</body>
 </html>
